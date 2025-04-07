@@ -41,6 +41,6 @@ jobs:
     - name: Run script
       env:
         # TODO velog_id 설정
-        VELOG_ID: "@gwj0421"
+        VELOG_ID: "gwj0421"
       run: |
         python ./scripts/batch_velog_posts_by_series/main.py
